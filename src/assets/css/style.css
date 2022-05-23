@@ -1,3 +1,15 @@
-body {
-  background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.topo{
+  background-color: #c3cfd9;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo h1{
+  font-family: Roboto;
+  font-size: 34px;
+  color: #E8833A;
 }
