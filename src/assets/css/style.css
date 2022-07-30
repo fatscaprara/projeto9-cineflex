@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  --cor-fundo-tela: #e5e5e5;
+  --cor-fundo-header: #c3cfd9;
+  --cor-fundo-footer: #dfe6ed;
+  --cor-laranja: #e8833a;
+  --cor-azul: #247a6b;
+  --cor-preta: #293845;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cor-fundo-tela);
+  color: var(--cor-preta);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
