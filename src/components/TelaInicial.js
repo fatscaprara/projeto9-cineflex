@@ -3,13 +3,13 @@ import styled from "styled-components";
 import { useState, useEffect } from "react";
 
 import Filme from "./Filme";
-import Container from "./layout/Container";
+import Container from "./Container";
 
 function TelaInicial() {
   const [filmes, setFilmes] = useState([]);
 
   useEffect(() => {
-    const URL = "https://mock-api.driven.com.br/api/v5/cineflex/movies";
+    const URL = "https://mock-api.driven.com.br/api/v7/cineflex/movies";
     const promise = axios.get(URL);
     promise.then(({ data }) => setFilmes(data));
     promise.catch((err) => alert(err.response.statusText));
